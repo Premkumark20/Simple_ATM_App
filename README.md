@@ -32,7 +32,7 @@ pip install kivy
 - **Password Reset**: "Forgot Password?" recovery workflow allows resetting account password.
 
 ### 💳 2. ATM Banking Operations
-- **Account Info & Live Balance**: Displays Account Name, Account Number (`RA2311018020002`), and real-time available balance.
+- **Account Info & Live Balance**: Displays Account Name, Account Number, and real-time available balance.
 - **Deposit Cash**: Quick deposit chip buttons ($100, $500, $1,000, $5,000) or custom deposit entry with optional reason (default *No Reason*).
 - **Withdraw Cash**: Cash withdrawal with immediate insufficient funds validation and balance protection with custom reason logging (default *Withdrawal*).
 

@@ -24,9 +24,6 @@ class HomeScreen(Screen):
         header.add_widget(Widget())
         self.welcome_label = Text(text='Hello', font_size=sp(16), bold=True, color=WHITE, height=dp(24))
         header.add_widget(self.welcome_label)
-        self.account_info = Text(text='Account No: RA2311018020002', font_size=sp(12),
-                                 color=TEXT_ON_DARK_MUTED, height=dp(18))
-        header.add_widget(self.account_info)
         header.add_widget(Text(text='Available balance', font_size=sp(12),
                                color=TEXT_ON_DARK_MUTED, height=dp(18)))
         self.balance_label = Text(text=money(0), font_size=sp(34), bold=True,
