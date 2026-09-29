@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+ENV/
+env/
+
+# Build and Packaging
+build/
+dist/
+*.spec.bak
+*.exe
+
+# Android / Buildozer
+.buildozer/
+bin/
+
+# Local Database
+*.db
+atm.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+typings/

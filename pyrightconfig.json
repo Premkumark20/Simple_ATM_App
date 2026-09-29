@@ -1,0 +1,22 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "venv",
+    "build",
+    "dist"
+  ],
+  "stubPath": "typings",
+  "venvPath": "c:\\Users\\premk\\Desktop\\ATM_App",
+  "venv": "venv",
+  "extraPaths": [
+    "typings",
+    "c:\\Users\\premk\\Desktop\\ATM_App\\venv\\Lib\\site-packages",
+    "C:\\Users\\premk\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none",
+  "reportMissingTypeStubs": false,
+  "pythonPlatform": "Windows"
+}
