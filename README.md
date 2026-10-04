@@ -1,6 +1,6 @@
 # ATM Banking Application (Desktop & Android)  
 
-⬇️ [APK DOWNLOAD (Android)](https://github.com/Premkumark20/Simple_ATM_App/actions/runs/36595636566/artifacts/11045994249) &nbsp;|&nbsp; ⬇️ [WINDOWS DOWNLOAD (.exe)](https://github.com/Premkumark20/Simple_ATM_App/releases/latest/download/ATMBanking.zip)
+⬇️ [APK DOWNLOAD (Android)](https://github.com/Premkumark20/Simple_ATM_App/releases/latest/download/atmbanking.apk) &nbsp;|&nbsp; ⬇️ [WINDOWS DOWNLOAD (.exe)](https://github.com/Premkumark20/Simple_ATM_App/releases/latest/download/ATMBanking.zip)
   
 A modern, cross-platform ATM Banking mobile and desktop application built with Python and Kivy GUI, powered by an embedded SQLite database (`atm.db`). No external database servers (like MySQL) are required—the application runs 100% self-contained on both **Windows Desktop** and **Android Devices**.  
   

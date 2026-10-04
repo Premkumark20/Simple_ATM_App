@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
 
     steps:
       - name: Free Disk Space
@@ -59,9 +61,25 @@ jobs:
           echo "=== LAST 150 LINES OF BUILDOZER LOG ==="
           find .buildozer -name "*.log" -exec tail -n 150 {} + 2>/dev/null || true
 
+      - name: Prepare APK for Release
+        run: |
+          cp bin/*.apk bin/atmbanking.apk
+
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v6
         with:
           name: atmbanking-apk
           path: bin/*.apk
+
+      - name: Release APK
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          tag_name: v1.0.0
+          name: "ATM Banking v1.0.0"
+          files: |
+            bin/atmbanking.apk
+            bin/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
