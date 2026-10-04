@@ -18,6 +18,7 @@ dist/
 .buildozer/
 bin/
 ATM_Banking_Project_Report.*
+generate_report.py
 
 # Local Database
 *.db
