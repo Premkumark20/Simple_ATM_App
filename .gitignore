@@ -17,6 +17,7 @@ dist/
 # Android / Buildozer
 .buildozer/
 bin/
+ATM_Banking_Project_Report.*
 
 # Local Database
 *.db
